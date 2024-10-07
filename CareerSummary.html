@@ -2,55 +2,91 @@
 <html>
 
 <head>
-    <title>Career Summary</title> 
+
     <style>
-        body { 
-            background-color: rgb(32, 32, 32); 
+    
+    body { 
+            background-color: #333; 
         }
-        
-        p  {
+    
+    #header{ 
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        width: 100%;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: #111;
+      }
+    .active {
+  background-color: #599900;
+    }
+    }
+
+    p  {
             color: white;
-            font-family: courier;
+            /*font-family: ;*/
             font-size: 20px
         }
-        a {
-            color: lightseagreen;
-        }
-        ul{
+    h1 {
             color: white;
-            letter-spacing: 2px;
-            line-height: 2;
-            font-size: 20px
+            /*font-family: ;*/
         }
-        h1 {
+    h2 {
             color: white;
-        }
-        h2 {
-            color: white;
+            /*font-family: ;*/
             font-size: 26px
         }
     </style>
+
 </head>
 
 <body>
-    <a href="index.html">Back to Home</a>
+
     <h1 style="text-align: center;">Career Summary</h1>
     <hr>
+
+  <div id="header">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li style="float:right"><a href="Resume.html">Resume</a></li>
+        <li><a href="Bio.html">Bio</a></li>
+        <li><a class="active" href="CareerSummary.html">Career Summary</a></li>
+        <li><a href="WorkSample.html">Work Samples</a></li>
+
+    </ul>
+  </div>
+
+
+
     <p>
-        I’m looking for a career in cybersecurity, and I’m currently working towards a Bachelor
-of Computer Science at Florida Polytechnic University. I’m expected to graduate in
-May of 2028, and afterward I plan on working on a Master’s degree. At the university,
-I’m a member of the cybersecurity club and I plan on taking the cybersecurity
-concentration during the course of my degree. I’ve participated in Capture The Flag
-events and I have attended a talk by a senior cybersecurity professional. I also have
-experience using Linux, Windows, and MacOS; as well as experience using the
-terminal. I’m currently looking for real world work experience in cybersecurity through
-an internship that I will attend over the summer. I intend on working as much as I can in
-order to become better experienced in the field of cybersecurity, and achieving
-certifications is one of my biggest goals after I obtain my degree. I’ve always had an
-interest in computers and programming, and a lot of my relatives work in computer
-science, which is part of the reason I’m interested in a job in cybersecurity.
-    </p>
+        Currently, I am working towards a Bachelor of Computer Science at Florida Polytechnic University with a concentration in Cybersecurity so that I can pursue a career in cybersecurity. I’m expected to graduate in May of 2028. <br> <br>
+After I receive my Bachelor's degree, I plan on enrolling in a Master’s program to become more competitive in the job market. Currently, at university, I am involved in the cybersecurity club, which is helping me to become more experienced in specific types of projects and real-world scenarios in the field. <br>
+So far, I have attended a Capture the Flag event where I gained valuable experience using the terminal and SSH. That event and cybersecurity club taught me about the importance of ethical hacking and the strong demand there is for people trained in cybersecurity. Additionally, I attended a seminar led by a senior cybersecurity professional, who taught us about what it’s like to work in cybersecurity professionally and what’s expected of us. <br> <br>
+I also already have extensive experience using multiple operating systems, including Linux, Windows, and macOS. <br> <br>
+I am seeking an internship this summer so that I can learn more about working in cybersecurity and in a position that will allow me to apply my skills in a real-world setting. While I work and even once I’m done with college, I still mean to earn accredited cybersecurity certifications in order to better my experience and skills. <br> <br>
+Many of my family members work in computer science, and I’ve always enjoyed computers and programming growing up. I’m excited to contribute to this important field in whatever way I can in order to protect our information and systems from evolving threats.    </p>
     
     
 </body>

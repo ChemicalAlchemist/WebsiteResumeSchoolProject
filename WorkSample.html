@@ -2,40 +2,82 @@
 <html>
 
 <head>
-    <title>Career Summary</title> 
+
     <style>
-        body { 
-            background-color: rgb(32, 32, 32); 
+    
+    body { 
+            background-color: #333; 
         }
-        
-        p  {
+    
+    #header{ 
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        width: 100%;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: #111;
+      }
+    .active {
+  background-color: #599900;
+    }
+    }
+
+    p  {
             color: white;
-            font-family: courier;
+            /*font-family: ;*/
             font-size: 20px
         }
-        a {
-            color: lightseagreen;
-        }
-        ul{
+    h1 {
             color: white;
-            letter-spacing: 2px;
-            line-height: 2;
-            font-size: 20px
+            /*font-family: ;*/
         }
-        h1 {
+    h2 {
             color: white;
-        }
-        h2 {
-            color: white;
+            /*font-family: ;*/
             font-size: 26px
         }
     </style>
+
 </head>
 
 <body>
-    <a href="index.html">Back to Home</a>
-    <h1 style="text-align: center;">Work Samples</h1>
+
+    <h1 style="text-align: center;">Career Summary</h1>
     <hr>
+
+  <div id="header">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li style="float:right"><a href="Resume.html">Resume</a></li>
+        <li><a href="Bio.html">Bio</a></li>
+        <li><a href="CareerSummary.html">Career Summary</a></li>
+        <li><a class="active" href="WorkSample.html">Work Samples</a></li>
+
+    </ul>
+  </div>
+
     <p>
         While I don't have much work experience, I've still spent a lot of time working with computers, code, and robotics.
         <br> I've participated in the First Tech Challenge robotics competition.
